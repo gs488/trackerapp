@@ -1,0 +1,14 @@
+On November 13th, our group decided to redesign our app to better serve our users. We realized that our first app iteration included too many reminder features and not enough tracking features. Additionally, our approach to data visualization through calendars was overcomplicated and unintuitive. In this iteration, we streamlined our application to include features that would directly serve our users needs. We eliminated the weekly and monthly view of progress in favor of a single analytics page displaying all progress in one place and a home screen that aggregates all inputted tasks.
+
+Our app now has four integral screens: Home, Task Input, Record Spending, and Analytics. When the user first opens the app, they view a home screen that displays all of the tasks they inputted. These tasks are arranged by due date, replacing the clunky and congested calendar feature with a sleeker long-term list view. When the user completes a task, they hit the checkbox and the text associated with the task will be striked-through. In accordance with the principle of forgiveness, checking off a task will not remove it from the screen, since there is the chance that the user may have checked it off accidentally. Instead, to remove a task intentionally, we have implemented a delete button (red 'x'). The user then has the option to delete a task that they may have inputted erroneously. The deleted task will be hidden from the screen, but the data will still be stored in local storage. 
+
+When the user wants to input a new task, they are routed to the Task Input screen that has generally stayed the same from our original design iteration. We have eliminated the need for a metric dropdown in the task input form since Analytics has been restructed without the separation based on specific metrics as we had originally planned. Categories will remain so that the user can organize their tasks by category. 
+
+The Record Spending screen has remained largely the same as well; however, instead of being a pop-up, it will have a separate page as it is a main functionality of our tracking application.
+
+Analytics will be displayed by month instead of by month and week. Users appreciate a long-term view, and weekly analytics diluted this purpose. We will only include progress bars by category that measure how many tasks the user completed of their total. We decided not to incorporate other data visualization styles (like pie charts, etc.) in order to create a consistent and easy-to-understand user experience. The progress bar will measure how many tasks per month per category (financial, medical, etc.) that the user completed and, in this way, track progress of inputted goals overall.
+
+We thus are linking among four pages (Home, Task Input, Record Spending, and Analytics). 
+
+The sketches and wireframes for this redesign can be found in the redesign folder in milestone4. 
+
